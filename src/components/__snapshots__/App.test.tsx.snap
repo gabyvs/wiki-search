@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<Fragment>
+  <header
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(236, 236, 236, 0.3)",
+        "borderBottom": "1px solid rgba(0,0,0,0.15)",
+        "display": "flex",
+        "height": "10rem",
+        "paddingLeft": "5rem",
+        "position": "fixed",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <SearchBar />
+  </header>
+  <main
+    style={
+      Object {
+        "marginTop": "10rem",
+        "overflow": "auto",
+      }
+    }
+  />
+</Fragment>
+`;
