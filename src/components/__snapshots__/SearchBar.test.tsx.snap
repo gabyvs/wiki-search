@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders correctly 1`] = `
+<Fragment>
+  <div>
+    <i
+      className="fab fa-wikipedia-w"
+      style={
+        Object {
+          "transform": "scale(2)",
+        }
+      }
+    />
+  </div>
+  <form
+    style={
+      Object {
+        "border": "1px solid #242424",
+        "borderRadius": "4px",
+        "display": "flex",
+        "marginLeft": "3rem",
+      }
+    }
+  >
+    <input
+      style={
+        Object {
+          "backgroundColor": "#292929",
+          "border": "none",
+          "color": "white",
+          "height": "4.4rem",
+          "padding": ".5rem 1rem",
+          "width": "55rem",
+        }
+      }
+      type="search"
+    />
+    <button
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#292929",
+          "border": "none",
+          "cursor": "pointer",
+          "display": "flex",
+          "height": "4.4rem",
+          "justifyContent": "center",
+          "width": "4.4rem",
+        }
+      }
+      type="submit"
+    >
+      <i
+        className="fas fa-search"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      />
+    </button>
+    <button
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#292929",
+          "border": "none",
+          "cursor": "pointer",
+          "display": "flex",
+          "height": "4.4rem",
+          "justifyContent": "center",
+          "width": "4.4rem",
+        }
+      }
+      type="button"
+    >
+      <i
+        className="fas fa-random"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      />
+    </button>
+  </form>
+</Fragment>
+`;

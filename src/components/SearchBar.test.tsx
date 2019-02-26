@@ -2,18 +2,18 @@ import React        from "react";
 import {
   shallow,
   ShallowWrapper }  from "enzyme";
-import App          from "./App";
+import SearchBar    from "./SearchBar";
 
-describe("App", () => {
-  let app: ShallowWrapper;
+describe("SearchBar", () => {
+  let searchBar: ShallowWrapper;
 
   beforeEach(() => {
-    app = shallow(<App />);
+    searchBar = shallow(<SearchBar />);
   });
 
   it('renders without crashing', () => {});
 
   it("renders correctly", () => {
-    expect(app).toMatchSnapshot();
+    expect(searchBar).toMatchSnapshot();
   });
 });
