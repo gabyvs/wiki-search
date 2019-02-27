@@ -3,7 +3,7 @@ import {
   shallow,
   ShallowWrapper }  from 'enzyme';
 import Result       from './Result';
-import { IResult }  from '../domain/result';
+import { IResult }  from '../../domain/result';
 
 describe('Result', () => {
   let result: ShallowWrapper;

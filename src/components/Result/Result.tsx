@@ -1,5 +1,5 @@
 import React      from 'react';
-import { IResult } from '../domain/result';
+import { IResult } from '../../domain/result';
 import './Result.css';
 
 const Result = (props: IResult) => (
