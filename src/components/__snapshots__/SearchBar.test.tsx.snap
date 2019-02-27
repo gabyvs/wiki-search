@@ -2,16 +2,18 @@
 
 exports[`SearchBar renders correctly 1`] = `
 <Fragment>
-  <div>
+  <h1
+    title="WikiSearch"
+  >
     <i
       className="fab fa-wikipedia-w"
       style={
         Object {
-          "transform": "scale(2)",
+          "fontWeight": "normal",
         }
       }
     />
-  </div>
+  </h1>
   <form
     style={
       Object {

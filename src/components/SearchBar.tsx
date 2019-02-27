@@ -1,4 +1,5 @@
 import React  from 'react';
+import './SearchBar.css';
 
 const styles = {
   button: {
@@ -9,7 +10,6 @@ const styles = {
     width: '4.4rem',
     height: '4.4rem',
     border: 'none',
-    backgroundColor: '#292929',
   },
   form: {
     marginLeft: '3rem',
@@ -29,19 +29,19 @@ const styles = {
     color: 'white',
   },
   logo: {
-    transform: "scale(2)"
+    fontWeight: "normal" as "normal"
   }
 };
 
 const SearchBar = () => (
   <>
-    <div><i style={styles.logo} className="fab fa-wikipedia-w" /></div>
+    <h1 title="WikiSearch"><i style={styles.logo} className="fab fa-wikipedia-w" /></h1>
     <form style={styles.form}>
       <input type="search" style={styles.input}/>
-      <button type="submit" style={styles.button}>
+      <button type="submit" style={styles.button} className="search-bar-icon-button">
         <i className="fas fa-search" style={styles.icon}/>
       </button>
-      <button type="button" style={styles.button}>
+      <button type="button" style={styles.button} className="search-bar-icon-button">
         <i className="fas fa-random" style={styles.icon}/>
       </button>
     </form>
