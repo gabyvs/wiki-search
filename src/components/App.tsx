@@ -1,6 +1,5 @@
 import React     from 'react';
 import SearchBar from './SearchBar';
-import Result    from './Result';
 
 const styles = {
   header: {
@@ -23,14 +22,9 @@ const styles = {
 const App = () => (
   <>
     <header style={styles.header}>
-      <SearchBar />
+      <SearchBar/>
     </header>
-    <main style={styles.main}>
-      <Result
-        url="www.rei.com"
-        title="Go to the wilderness"
-        snippet="This summer experience the backcountry in the company of your beloved friends."/>
-    </main>
+    <main style={styles.main} />
   </>
 );
 

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result renders correctly 1`] = `
+<div
+  className="result"
+>
+  <h3
+    className="result-title"
+  >
+    <a
+      className="result-title-link"
+      href="www.url.com"
+      rel="noopener"
+      target="_blank"
+    >
+      A title for the result
+    </a>
+  </h3>
+  <div
+    className="result-snippet"
+  >
+    This would be a description for the result.
+  </div>
+  <a
+    className="result-title-link"
+    href="www.url.com"
+    rel="noopener"
+    target="_blank"
+  >
+    www.url.com
+  </a>
+</div>
+`;

@@ -6,83 +6,31 @@ exports[`SearchBar renders correctly 1`] = `
     title="WikiSearch"
   >
     <i
-      className="fab fa-wikipedia-w"
-      style={
-        Object {
-          "fontWeight": "normal",
-        }
-      }
+      className="fab fa-wikipedia-w search-bar-logo"
     />
   </h1>
   <form
-    style={
-      Object {
-        "border": "1px solid #242424",
-        "borderRadius": "4px",
-        "display": "flex",
-        "marginLeft": "3rem",
-      }
-    }
+    className="search-bar-form"
   >
     <input
-      style={
-        Object {
-          "backgroundColor": "#292929",
-          "border": "none",
-          "color": "white",
-          "height": "4.4rem",
-          "padding": ".5rem 1rem",
-          "width": "55rem",
-        }
-      }
+      className="search-bar-input"
       type="search"
+      value=""
     />
     <button
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#292929",
-          "border": "none",
-          "cursor": "pointer",
-          "display": "flex",
-          "height": "4.4rem",
-          "justifyContent": "center",
-          "width": "4.4rem",
-        }
-      }
+      className="search-bar-button"
       type="submit"
     >
       <i
-        className="fas fa-search"
-        style={
-          Object {
-            "color": "white",
-          }
-        }
+        className="fas fa-search search-bar-button-icon"
       />
     </button>
     <button
-      style={
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "#292929",
-          "border": "none",
-          "cursor": "pointer",
-          "display": "flex",
-          "height": "4.4rem",
-          "justifyContent": "center",
-          "width": "4.4rem",
-        }
-      }
+      className="search-bar-button"
       type="button"
     >
       <i
-        className="fas fa-random"
-        style={
-          Object {
-            "color": "white",
-          }
-        }
+        className="fas fa-random search-bar-button-icon"
       />
     </button>
   </form>

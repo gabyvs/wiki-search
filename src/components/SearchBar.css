@@ -1,7 +1,39 @@
-.search-bar-icon-button {
+.search-bar-logo {
+  font-weight: normal;
+}
+
+.search-bar-form {
+  margin-left: 3rem;
+  display: flex;
+  border: 1px solid #242424;
+  border-radius: 4px;
+}
+
+.search-bar-input {
+  background-color: #292929;
+  border: none;
+  height: 4.4rem;
+  width: 55rem;
+  padding: .5rem 1rem;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.search-bar-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  border: none;
   background-color: #292929;
 }
 
-.search-bar-icon-button:hover {
-  background-color: #1f1f1f!important;
+.search-bar-button:hover {
+  background-color: #1f1f1f;
+}
+
+.search-bar-button-icon {
+  color: white;
 }
