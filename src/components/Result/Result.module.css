@@ -1,13 +1,15 @@
+@import '../../theme.css';
+
 .result {
   margin-bottom: 20px;
-  color: white;
+  color: var(--mat-primary-text);
   border-radius: 2px;
   padding: 10px;
   width: 100%;
 }
 
 .result:hover {
-  background-color: #434343;
+  background-color: var(--mat-primary);
 }
 
 .title {
@@ -15,7 +17,7 @@
 }
 
 .link {
-  color: #434343;
+  color: var(--mat-primary);
   text-decoration: none;
   font-size: 13px;
 }
@@ -25,6 +27,6 @@
 }
 
 .snippet {
-  color: #c2c2c2;
+  color: var(--mat-secondary-text);
   font-size: 13px;
 }

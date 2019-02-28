@@ -1,0 +1,19 @@
+:root {
+  /* material */
+  --mat-dark-primary: #292929;
+  --mat-light-primary: white;
+  --mat-primary: #434343;
+  --mat-accent: #1f1f1f;
+  --mat-primary-text: white;
+  --mat-secondary-text: #c2c2c2;
+  --mat-divider: rgba(0,0,0,0.15);
+  --mat-secondary: rgba(236, 236, 236, 0.3);
+
+  --light-primary-text:var(--mat-primary); /*for light primary text try matprimary*/
+
+  --dark-accent: var(--mat-accent);
+  --primary-accent: var(--mat-dark-primary);
+  --light-accent: var(--mat-primary);
+
+  --dark-background: var(--mat-secondary);
+}
