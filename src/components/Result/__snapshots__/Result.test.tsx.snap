@@ -5,11 +5,11 @@ exports[`Result renders correctly 1`] = `
   className="result"
 >
   <h3
-    className="result-title"
+    className="title"
   >
     <a
-      className="result-title-link"
-      href="www.url.com"
+      className="link"
+      href="https://en.wikipedia.org/wiki/A%20title%20for%20the%20result"
       rel="noopener"
       target="_blank"
     >
@@ -17,17 +17,17 @@ exports[`Result renders correctly 1`] = `
     </a>
   </h3>
   <div
-    className="result-snippet"
+    className="snippet"
   >
     This would be a description for the result.
   </div>
   <a
-    className="result-title-link"
-    href="www.url.com"
+    className="link"
+    href="https://en.wikipedia.org/wiki/A%20title%20for%20the%20result"
     rel="noopener"
     target="_blank"
   >
-    www.url.com
+    https://en.wikipedia.org/wiki/A%20title%20for%20the%20result
   </a>
 </div>
 `;

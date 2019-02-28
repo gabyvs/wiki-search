@@ -6,31 +6,31 @@ exports[`SearchBar renders correctly 1`] = `
     title="WikiSearch"
   >
     <i
-      className="fab fa-wikipedia-w search-bar-logo"
+      className="fab fa-wikipedia-w logo"
     />
   </h1>
   <form
-    className="search-bar-form"
+    className="form"
   >
     <input
-      className="search-bar-input"
+      className="input"
       type="search"
       value=""
     />
     <button
-      className="search-bar-button"
+      className="button"
       type="submit"
     >
       <i
-        className="fas fa-search search-bar-button-icon"
+        className="fas fa-search icon"
       />
     </button>
     <button
-      className="search-bar-button"
+      className="button"
       type="button"
     >
       <i
-        className="fas fa-random search-bar-button-icon"
+        className="fas fa-random icon"
       />
     </button>
   </form>

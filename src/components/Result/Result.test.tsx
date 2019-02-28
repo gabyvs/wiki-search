@@ -8,13 +8,14 @@ import { IResult }  from '../../domain/result';
 describe('Result', () => {
   let result: ShallowWrapper;
   let props: IResult;
+  let url: string;
 
   beforeEach(() => {
     props = {
-      url: 'www.url.com',
       title: 'A title for the result',
       snippet: 'This would be a description for the result.'
     };
+    url = encodeURI(`https://en.wikipedia.org/wiki/${props.title}`)
     result = shallow(<Result {...props} />)
   });
 
@@ -25,7 +26,7 @@ describe('Result', () => {
   });
 
   it('renders links with the passed url', () => {
-    expect(result.find(`[href="${props.url}"]`)).toHaveLength(2);
+    expect(result.find(`[href="${url}"]`)).toHaveLength(2);
   });
 
   it('renders title', () => {
@@ -33,10 +34,10 @@ describe('Result', () => {
   });
 
   it('renders url', () => {
-    expect(result.find('a').at(1).text()).toBe(props.url);
+    expect(result.find('a').at(1).text()).toBe(url);
   });
 
   it('renders snippet', () => {
-    expect(result.find('.result-snippet').text()).toBe(props.snippet);
+    expect(result.find('.snippet').text()).toBe(props.snippet);
   });
 });
