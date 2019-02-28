@@ -1,5 +1,5 @@
 import React  from 'react';
-import './SearchBar.css';
+import styles from './SearchBar.module.css';
 
 export interface SearchBarProps {
   searchTerm?: string;
@@ -9,15 +9,15 @@ const SearchBar = ({ searchTerm = '' }: SearchBarProps) => {
   return (
     <>
       <h1 title="WikiSearch">
-        <i className="fab fa-wikipedia-w search-bar-logo" />
+        <i className={`fab fa-wikipedia-w ${styles.logo}`} />
       </h1>
-      <form className="search-bar-form">
-        <input type="search" className="search-bar-input" value={searchTerm}/>
-        <button type="submit" className="search-bar-button">
-          <i className="fas fa-search search-bar-button-icon"/>
+      <form className={styles.form}>
+        <input type="search" className={styles.input} value={searchTerm}/>
+        <button type="submit" className={styles.button}>
+          <i className={`fas fa-search ${styles.icon}`} />
         </button>
-        <button type="button" className="search-bar-button">
-          <i className="fas fa-random search-bar-button-icon"/>
+        <button type="button" className={styles.button}>
+          <i className={`fas fa-random ${styles.icon}`} />
         </button>
       </form>
     </>

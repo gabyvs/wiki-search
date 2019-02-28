@@ -10,21 +10,21 @@
   background-color: #434343;
 }
 
-.result-title {
+.title {
   margin-bottom: 4px;
 }
 
-.result-title-link {
+.link {
   color: #434343;
   text-decoration: none;
   font-size: 13px;
 }
 
-.result:hover .result-title-link {
+.result:hover .link {
   color: white;
 }
 
-.result-snippet {
+.snippet {
   color: #c2c2c2;
   font-size: 13px;
 }

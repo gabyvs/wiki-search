@@ -1,15 +1,15 @@
-.search-bar-logo {
+.logo {
   font-weight: normal;
 }
 
-.search-bar-form {
+.form {
   margin-left: 3rem;
   display: flex;
   border: 1px solid #242424;
   border-radius: 4px;
 }
 
-.search-bar-input {
+.input {
   background-color: #292929;
   border: none;
   height: 4.4rem;
@@ -19,7 +19,7 @@
   font-size: 1.6rem;
 }
 
-.search-bar-button {
+.button {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -30,10 +30,10 @@
   background-color: #292929;
 }
 
-.search-bar-button:hover {
+.button:hover {
   background-color: #1f1f1f;
 }
 
-.search-bar-button-icon {
+.icon {
   color: white;
 }
