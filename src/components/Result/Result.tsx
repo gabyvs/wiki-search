@@ -3,7 +3,7 @@ import { IResult } from '../../domain/result';
 import styles from './Result.module.css';
 
 const Result = (props: IResult) => {
-  const url = encodeURI(`https://en.wikipedia.org/wiki/${props.title}`)
+  const url = encodeURI(`https://en.wikipedia.org/wiki/${props.title}`);
   return (
     <div className={styles.result}>
       <h3 className={styles.title}>

@@ -1,0 +1,14 @@
+.list {
+  padding: 2rem 0 5rem;
+  margin-left: 12rem;
+  width: 64rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .list {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -39,3 +39,11 @@
 .icon {
   color: var(--mat-primary-text);
 }
+
+@media screen and (max-width: 800px) {
+  .form {
+    margin: 20px auto 0;
+    width: 80%
+  }
+
+}

@@ -6,8 +6,8 @@
   --mat-accent: #1f1f1f;
   --mat-primary-text: white;
   --mat-secondary-text: #c2c2c2;
-  --mat-divider: rgba(0,0,0,0.15);
-  --mat-secondary: rgba(236, 236, 236, 0.3);
+  --mat-divider: #d4d4d4;
+  --mat-secondary: #f9f9f9;
 
   --light-primary-text:var(--mat-primary); /*for light primary text try matprimary*/
 

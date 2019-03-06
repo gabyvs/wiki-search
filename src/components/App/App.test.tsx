@@ -1,10 +1,10 @@
-import React        from "react";
+import React       from 'react';
 import {
   shallow,
-  ShallowWrapper }  from "enzyme";
-import App          from "./App";
+  ShallowWrapper } from 'enzyme';
+import App         from './App';
 
-describe("App", () => {
+describe('App', () => {
   let app: ShallowWrapper;
 
   beforeEach(() => {
@@ -13,7 +13,7 @@ describe("App", () => {
 
   it('renders without crashing', () => {});
 
-  it("renders correctly", () => {
+  it('renders correctly', () => {
     expect(app).toMatchSnapshot();
   });
 });
