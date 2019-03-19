@@ -7,12 +7,12 @@
 .form {
   margin-left: 3rem;
   display: flex;
-  border: 1px solid var(--mat-dark-primary);
+  border: 1px solid var(--mat-primary);
   border-radius: 4px;
 }
 
 .input {
-  background-color: var(--mat-dark-primary);
+  background-color: var(--mat-primary);
   border: none;
   height: 4.4rem;
   width: 55rem;
@@ -29,7 +29,7 @@
   width: 4.4rem;
   height: 4.4rem;
   border: none;
-  background-color: var(--mat-dark-primary);
+  background-color: var(--mat-primary);
 }
 
 .button:hover {

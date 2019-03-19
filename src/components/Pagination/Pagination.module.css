@@ -1,0 +1,24 @@
+@import '../../theme.css';
+
+.container {
+  display: inline-flex;
+  border: 1px solid var(--mat-primary);
+  border-radius: 4px;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  border: none;
+  background-color: var(--mat-primary);
+  color: var(--mat-primary-text);
+}
+
+.button:hover {
+  background-color: var(--dark-accent);
+  font-weight: bold;
+}
