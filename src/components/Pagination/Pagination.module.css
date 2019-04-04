@@ -22,3 +22,15 @@
   background-color: var(--dark-accent);
   font-weight: bold;
 }
+
+/* TODO: reuse styles from button*/
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 4.4rem;
+  border: none;
+  background-color: var(--mat-primary);
+  color: var(--mat-primary-text);
+}
