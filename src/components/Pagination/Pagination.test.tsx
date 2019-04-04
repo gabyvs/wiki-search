@@ -6,9 +6,16 @@ import
   Pagination,
   { PaginationProps } from './Pagination';
 
+interface PaginationPropsTest extends PaginationProps {
+  onFirstPage: jest.Mock;
+  onPrevPage: jest.Mock;
+  onNextPage: jest.Mock;
+  onLastPage: jest.Mock;
+}
+
 describe('Pagination', () => {
   let pagination: ShallowWrapper;
-  let props: any; // which type to use to be able to use mockClear
+  let props: PaginationPropsTest;
   let currentPage = 1;
   let numPages = 5;
 
@@ -21,6 +28,7 @@ describe('Pagination', () => {
       onNextPage: jest.fn(),
       onLastPage: jest.fn()
     };
+
     pagination = shallow(<Pagination {...props} />);
   });
 
@@ -68,8 +76,7 @@ describe('Pagination', () => {
 
     describe('and second page is displayed', () => {
       beforeEach(() => {
-        props.currentPage = 2;
-        pagination.update();
+        pagination.setProps({ currentPage: 2 });
       });
 
       it('enables "first" button', () => {

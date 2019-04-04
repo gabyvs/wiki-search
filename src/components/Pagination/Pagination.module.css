@@ -6,16 +6,20 @@
   border-radius: 4px;
 }
 
-.button {
-  cursor: pointer;
+._element {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 4.4rem;
   height: 4.4rem;
   border: none;
   background-color: var(--mat-primary);
   color: var(--mat-primary-text);
+}
+
+.button {
+  composes: _element;
+  cursor: pointer;
+  width: 4.4rem;
 }
 
 .button:hover {
@@ -23,14 +27,7 @@
   font-weight: bold;
 }
 
-/* TODO: reuse styles from button*/
 .label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  composes: _element;
   width: 12rem;
-  height: 4.4rem;
-  border: none;
-  background-color: var(--mat-primary);
-  color: var(--mat-primary-text);
 }
